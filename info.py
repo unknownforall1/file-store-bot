@@ -55,6 +55,7 @@ IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
+IS_VERIFY = environ.get('IS_VERIFY', True)
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))

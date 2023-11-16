@@ -630,11 +630,11 @@ async def removetutorial(bot, message):
 
 
 @Client.on_message(filters.command("users") & filters.user(ADMINS))
-async def sts(c: bot, m: Message):
-    user_id=m.from_user.id
+async def sts(bot, message):
+    user_id=message.from_user.id
     if user_id in info.ADMINS:
         total_users = await db.total_users_count()
-        await m.reply_text(text=f"Total Users in DB: {total_users}", quote=True)
+        await message.reply_text(text=f"Total Users in DB: {total_users}", quote=True)
         
 
 

@@ -10,4 +10,10 @@ git+https://github.com/Joelkb/cinemagoer
 shortzy
 datetime
 pytz
-aiohttp
+aiohttp<=3.8.1
+python-dotenv<=0.20.0
+aiofiles
+dnspython
+apscheduler
+psutil
+pyromod

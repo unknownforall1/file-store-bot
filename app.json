@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/TeamHMT/Auto-search-tamil-bot",
-    "repository": "https://github.com/TeamHMT/Auto-search-tamil-bot",
+    "website": "https://github.com/unknownforall1/Auto-search-tamil-bot",
+    "repository": "https://github.com/unknownforall1/Auto-search-tamil-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -72,10 +72,10 @@
     "buildpacks": [{
         "url": "heroku/python"
     }],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "eco"
+     "formation": {
+            "web": {
+          "quantity": 1,
+          "size": "free"
+      }
         }
-    }
 }

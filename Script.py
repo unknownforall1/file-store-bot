@@ -200,10 +200,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/Movies_x_store> ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ </a>
-▫️<a href=https://t.me/+aEYTJtwZpalmM2Jl> ᴍᴏᴠɪᴇ​ ɢʀᴏᴜᴘ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
-
+▫️<a href=https://t.me/Movie_magic69> ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ </a>
+▫️<a href=https://t.me/moviemagicbackup> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ </a>
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 

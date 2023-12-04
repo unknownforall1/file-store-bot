@@ -13,12 +13,12 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27708509'))
+API_ID = environ.get('API_ID', '27708509')
 API_HASH = environ.get('API_HASH', '76e9437b4d4394cc575eb206f4c5239d')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
+CACHE_TIME = environ.get('CACHE_TIME', 300)
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/8668cbc6e150c8e7385d8.jpg')).split() #SAMPLE PIC
@@ -54,11 +54,11 @@ IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 #Use this feature, if you have deployed file to link bot. paste the app url with stream url and add filter bot as admin in bin channel and add id in stream bin
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = environ.get('VERIFY', True)
 IS_VERIFY = environ.get('IS_VERIFY', True)
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlshortx.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '15bdb1979f1d6fba98c47beaac28dd94d14bf6ed')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = environ.get('IS_SHORTLINK', True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -69,7 +69,7 @@ UPDT_CHNL_LNK = environ.get('UPDT_CHNL_LNK','https://t.me/moviemagicbackup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/movies_x_store_tutorial/1')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002064214656'))
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002064214656')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+aEYTJtwZpalmM2Jl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
